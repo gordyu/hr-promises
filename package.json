@@ -1,0 +1,26 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "Conjure your way through an understanding of Promises",
+  "author": "Hack Reactor <curriculum.team@hackreactor.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash",
+    "test": "mocha test/index.js --bail",
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "chai": "^3.2.0",
+    "clarifai": "^2.4.0",
+    "colors": "^1.1.2",
+    "eslint-config-hackreactor": "git://github.com/hackreactor-labs/eslint-config-hackreactor",
+    "mocha": "^2.2.5",
+    "nock": "^2.18.2",
+    "request": "^2.61.0"
+  }
+}

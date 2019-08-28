@@ -1,0 +1,3 @@
+Yet another file
+that when red
+will not be blue.
